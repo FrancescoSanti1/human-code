@@ -1,0 +1,65 @@
+1. leggo la consegna per l'esercizio del giorno su Slack
+2. copio il nome del repository
+3. creo il repository sulla mia pagina GitHub
+4. apro Visual Studio Code
+5. clono in locale il repository appena creato
+6. rileggo la consegna dell'esercizio del giorno e mi domando: mi è chiaro l'obiettivo da raggiungere?
+    * se sì, passo al punto successivo
+    * altrimenti torno al punto 6 
+7. all'interno della cartella creo i file html e css e li collego
+8. divido mentalmente il layout in parti più piccole
+9. con dei commenti strutturo di conseguenza il file html
+10. controllo la struttura appena scritta e mi domando: è sensata?
+    * se sì, passo al punto successivo
+    * altrimenti valuto le modifiche da apportare e torno al punto 9
+11. replico la stessa struttura sul css lasciando una parte anche per le regole generali
+12. torno sul file html e, partendo dall'alto, procedo affrontando una sezione alla volta
+13. all'interno della sezione inizio a inserire i blocchi principali della struttura
+14. mi sposto sul file css e inserisco le istruzioni di debug
+15. apro il file html sul browser
+16. controllo il funzionamento di quanto fatto finora
+
+17. funziona tutto correttamente?
+    * se sì, mi domando: ho affrontato tutte le sezioni?
+        + se sì, passo al punto successivo (18)
+        + altrimenti torno al punto 13 passando alla sezione successiva
+    * altrimenti apro lo strumento per ispezionare la mia pagina web e cerco di capire cosa non funziona
+        + sono riuscito a risolvere il problema?
+            - se sì, torno al punto 17
+            - altrimenti apro un ticket per chiedere un aiuto al tutor
+                ~ insieme al tutor riesco a risolvere il problema e torno al punto 17
+
+18. una volta terminata la macrostruttura a blocchi, creo un commit e con un push carico il lavoro fatto finora su GitHub
+19. passo a inserire i contenuti, ripartendo sempre dall'altro e affrontando una sezione alla volta
+20. all'interno della sezione inserisco i contenuti (testi e immagini)
+21. torno sul browser per controllare il risultato
+22. sistemo le istruzioni css per avvicinarmi al risultato richiesto dalla consegna dell'esercizio
+23. torno sul browser per controllare il risultato
+24. tramite lo strumento per ispezionare la pagina, tolgo temporaneamente le istruzioni di debug
+
+25. funziona tutto correttamente?
+    * se sì, tolgo definitivamente le istruzioni di debug relative e mi domando: ho affrontato tutte le sezioni?
+        + se sì, passo al punto successivo (26)
+        + altrimenti torno al punto 20 passando alla sezione successiva
+    * altrimenti faccio un analisi per capire cosa non funziona
+        + mi aiuto riguardando le slide del mattino e consulto la pagina relativa di MDN
+        + sono riuscito a risolvere il problema?
+            - se sì, torno al punto 25
+            - altrimenti apro un ticket per chiedere un aiuto al tutor
+                ~ insieme al tutor riesco a risolvere il problema e torno al punto 25
+
+26. una volta inseriti tutti i contenuti, creo un nuovo commit e con un push carico il lavoro fatto finora su GitHub
+27. faccio una revisione globale del codice
+28. ci sono parti di codice che è possibile centralizzare?
+    * se sì, procedo con la riscrittura e torno al punto 27
+    * altrimenti creo un nuovo commit e con un push carico il lavoro fatto finora su GitHub, poi passo al punto successivo
+29. faccio un'ulteriore revisione del codice e mi domando: ci sono degli aspetti che, pur funzionando, non mi sono del tutto chiari?
+    * se sì, apro un ticket e chiedo chiarimenti al tutor
+        + grazie all'aiuto del tutor chiarisco gli ultimi dubbi e passo al punto successivo
+    * altrimenti passo al punto successivo
+30. rileggo di nuovo la consegna dell'esercizio per controllare di non aver tralasciato nulla delle cose richieste
+31. mi domando: il mio esercizio è completo?
+    * se sì, faccio un ultimo commit e con un push consegno il lavoro completo
+    * altrimenti:
+        + se si tratta di un aspetto strutturale, torno al punto 13
+        + se manca un contenuto, torno al punto 20
